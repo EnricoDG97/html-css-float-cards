@@ -30,6 +30,7 @@ body .container {
     background-color: #0f0e17;
     color: #ffffff;
     margin: 0px 1.6%;
+    box-shadow: 0px 0px 10px 5px #888888;
 }
 
 .float-left {
@@ -66,4 +67,15 @@ main p:first-child {
 .row p strong {
     color:#ffffff;
     font-weight: 500;
+}
+
+.row_two::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.4em;
 }
