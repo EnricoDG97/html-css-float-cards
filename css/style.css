@@ -16,3 +16,15 @@ header h1 {
     padding: 20px 0;
 }
 
+body main {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+main p {
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
