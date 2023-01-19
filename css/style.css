@@ -16,15 +16,54 @@ header h1 {
     padding: 20px 0;
 }
 
-body main {
-    max-width: 1000px;
+body .container {
+    max-width: 1200px;
     margin: 20px auto;
 }
 
-main p {
+.row {
+    padding-bottom: 30px;
+}
+
+.card {
+    width: 30%;
+    background-color: #0f0e17;
+    color: #ffffff;
+    margin: 0px 1.6%;
+}
+
+.float-left {
+    float: left;
+}
+
+img {
+    height: 100px;
+}
+
+.card p, h3{
+    margin-left: 118px;
+    margin-top: 3%;
+}
+
+main p:first-child {
     font-weight: 300;
     color: black;
     text-align: center;
     padding-bottom: 40px;
 }
 
+.row_one::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.row p {
+    color: #4dccf2;
+    font-weight: 300;
+}
+
+.row p strong {
+    color:#ffffff;
+    font-weight: 500;
+}
